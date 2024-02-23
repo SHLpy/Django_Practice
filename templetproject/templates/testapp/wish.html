@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wiz">
+    <title></title>
+    <style>
+        h1{
+            color: red;
+        }
+        h2{
+            color: rebeccapurple;
+        }
+        h3{
+            color: rgb(153, 51, 129);
+        }
+        span{
+            border: 2px solid rgb(79, 30, 6);
+            color: blue;
+            width: auto;
+            height: auto;
+        }
+        li{
+            color: rgb(77, 10, 94);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To Django Template Demo</h1>
+    <h2>Second Hero of Django in MVT:Templates</h2>
+    <h3>Now the server time is : <span>{{insert_date}}</span></h3>
+    <ol>
+      <li>Name : {{name}}</li>
+      <li>Marks : {{marks}}</li>
+      <li>Roll No : {{rollno}}</li>
+      <li>Branch : {{branch}}</li>
+    </ol>
+
+</body>
+</html>
